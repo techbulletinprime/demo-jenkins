@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoJenkinsApplication {
 	@GetMapping("/jenkinstest")
 	public String jenkinsTest(){
-		return "Jenkins Deployment Working with continious Integration";
+		return "Jenkins Deployment Working with continious Integration ok";
 	}
 
 	public static void main(String[] args) {
